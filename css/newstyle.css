@@ -1,0 +1,32 @@
+/* ------------------------
+    Table of Contents
+
+  1. Temp logo
+  2. Typography
+  3. Helper class
+  4. Text color
+  
+/* ------------------------
+    General
+------------------------*/
+
+.mt-30{
+    margin-top: 70px;}
+.b1px{border: 1px solid;}
+/* ------------------------
+    Temp logo
+------------------------*/
+.topleft {font-size: 30px;font-weight: 35px;transform: translateY(-20px);
+    top: 0;border: 0px solid;padding-top: 0px;
+    left: 52px;margin-left: 10%;height: 50px;
+  }
+
+    .u{font-size: 45px;font-weight: bold;color: #2ECC71;}
+    .ncover{color: white;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black}
+    .campus{font-family: cursive;color: rgb(165 173 179);color: white;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black}
+    .outline1{-webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #255e3d}

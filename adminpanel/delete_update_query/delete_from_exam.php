@@ -1,0 +1,19 @@
+<?php
+include("../conn.php");
+
+$id=$_GET["id"];
+
+
+
+                $query_delete="delete from exams where id='$id'";
+                
+                $data_delete=mysqli_query($conn,$query_delete);
+                if($data_delete){
+                    echo"  <script> window.location='../exams.php'; </script>";
+
+                }
+                else{echo"  <script> alert(' data not Deleted') ; window.location='../exams.php'; </script>";
+
+                }
+
+?>
