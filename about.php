@@ -1,10 +1,9 @@
 <?php
-include("adminpanel/conn.php");
 error_reporting(0);
+include("header1.php");
 $conn=mysqli_connect("localhost","u808479902_uc","Uncover12","u808479902_uncovercampus");
 $query=mysqli_query($conn,"select * from team");
 $result=mysqli_fetch_array($query);
-include("header1.php");
 
 ?>
 <style>
@@ -16,28 +15,12 @@ include("header1.php");
     }
     
 </style>
-
-		<!--header end-->
-    <meta name="google-site-verification" content="CHvKv6l4MrXCbJWg-qt_k-sRoBe8wimYMTSrQpqFMh8" />
-    <meta charset="utf-8">
-    <meta name="keywords" content="CTO at uncovercampus" />
-    <meta name="description" content="CTO at uncovercampus" />
-    <meta name="author" content="CTO at uncovercampus" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!--page title start-->
-
-
-
-
 <!--body content start-->
 
 <div class="page-content">
     
-    
-    
-    
-     <!--member listing start-->
-   
+    <!--member listing start-->
+
     <section class="mt-5">
         <div class="container">
             <div class="row text-center">
